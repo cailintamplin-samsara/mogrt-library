@@ -1,0 +1,32 @@
+{
+  "2026-lock-up-v7": {
+    "version": "7",
+    "sha256": "6e8d4ed1e99158b4984991a753a2b57189a6fe4626c01d229534f2c412be5738",
+    "file": "2026-Lock-up-V7.mogrt"
+  },
+  "lower-thirds-v10": {
+    "version": "10",
+    "sha256": "8501708c558794b1f0248c06819586d3a7f1199b02fb5ea7bfa91ed9be8c5cde",
+    "file": "Lower Thirds - V10.mogrt"
+  },
+  "object-stats-intro-v4": {
+    "version": "4",
+    "sha256": "b39c101d01bd5972749dcea73d6c7a56dc4a3db06a9dd9b7eee02be90204c33f",
+    "file": "Object_Stats_INTRO_V4.mogrt"
+  },
+  "samsara-text-super-v7": {
+    "version": "7",
+    "sha256": "7aefb7d035269c36928ed9086dba7e84b44e9ecf343d85478fa87af1125df288",
+    "file": "Samsara Text Super V7.mogrt"
+  },
+  "samsara-x-logo-v4": {
+    "version": "4",
+    "sha256": "5a47d80473231f38a3714e3f4971ab84867474d76808ad414ff53425cfddadbe",
+    "file": "Samsara x [Logo] V4.mogrt"
+  },
+  "samsara-presents-v4": {
+    "version": "4",
+    "sha256": "51aeedfa7eec4abf72d91b1b7a6c4ac712d98a3e2679feb3bb7fe08aea8d7e70",
+    "file": "Samsara_Presents_V4.mogrt"
+  }
+}
