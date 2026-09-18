@@ -1,9 +1,4 @@
 {
-  "2026-lock-up-v7": {
-    "version": "7",
-    "sha256": "6e8d4ed1e99158b4984991a753a2b57189a6fe4626c01d229534f2c412be5738",
-    "file": "2026-Lock-up-V7.mogrt"
-  },
   "lower-thirds-v10": {
     "version": "10",
     "sha256": "8501708c558794b1f0248c06819586d3a7f1199b02fb5ea7bfa91ed9be8c5cde",
@@ -28,5 +23,10 @@
     "version": "4",
     "sha256": "51aeedfa7eec4abf72d91b1b7a6c4ac712d98a3e2679feb3bb7fe08aea8d7e70",
     "file": "Samsara_Presents_V4.mogrt"
+  },
+  "lockup-version-8": {
+    "version": "1.0",
+    "sha256": "c39214a315a395f9c397444332773d0e3f768bea97194dd48251f386023c1cc0",
+    "file": "Lockup Version 8.mogrt"
   }
 }

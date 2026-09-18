@@ -51,8 +51,11 @@ function displayName(fileName) {
 }
 
 function extractVersionHint(fileName) {
-  const match = fileName.match(/v(\d+(?:\.\d+)*)/i);
-  return match ? match[1] : "1.0";
+  const vMatch = fileName.match(/v(\d+(?:\.\d+)*)/i);
+  if (vMatch) return vMatch[1];
+  const versionWord = fileName.match(/version\s*(\d+(?:\.\d+)*)/i);
+  if (versionWord) return versionWord[1];
+  return "1.0";
 }
 
 function sha256File(filePath) {
