@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-18T17:10:08.882Z",
+  "generated": "2026-09-18T17:10:24.851Z",
   "source": "github",
   "repository": "cailintamplin-samsara/mogrt-library",
   "branch": "main",
@@ -7,8 +7,8 @@
     {
       "id": "lockup-version-8",
       "name": "Lockup Version 8",
-      "version": "1.0",
-      "mogrtId": "lockup-version-8-v1.0",
+      "version": "8",
+      "mogrtId": "lockup-version-8-v8",
       "file": "templates/Lockup Version 8.mogrt",
       "downloadUrl": "https://raw.githubusercontent.com/cailintamplin-samsara/mogrt-library/main/templates/Lockup%20Version%208.mogrt",
       "thumbnailUrl": "https://raw.githubusercontent.com/cailintamplin-samsara/mogrt-library/main/thumbnails/lockup-version-8.png",
