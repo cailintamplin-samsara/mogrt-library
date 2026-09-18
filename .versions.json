@@ -1,32 +1,32 @@
 {
-  "lower-thirds-v10": {
-    "version": "10",
-    "sha256": "8501708c558794b1f0248c06819586d3a7f1199b02fb5ea7bfa91ed9be8c5cde",
-    "file": "Lower Thirds - V10.mogrt"
-  },
-  "object-stats-intro-v4": {
-    "version": "4",
-    "sha256": "b39c101d01bd5972749dcea73d6c7a56dc4a3db06a9dd9b7eee02be90204c33f",
-    "file": "Object_Stats_INTRO_V4.mogrt"
-  },
-  "samsara-text-super-v7": {
+  "copy-text-simple-v7": {
     "version": "7",
     "sha256": "7aefb7d035269c36928ed9086dba7e84b44e9ecf343d85478fa87af1125df288",
-    "file": "Samsara Text Super V7.mogrt"
+    "file": "Copy-Text--Simple_V7.mogrt"
   },
-  "lockup-version-8": {
+  "lockup-v8": {
     "version": "8",
     "sha256": "c39214a315a395f9c397444332773d0e3f768bea97194dd48251f386023c1cc0",
-    "file": "Lockup Version 8.mogrt"
+    "file": "Lockup_V8.mogrt"
   },
-  "samsara-x-logo-v5": {
+  "lower-third-v10": {
+    "version": "10",
+    "sha256": "8501708c558794b1f0248c06819586d3a7f1199b02fb5ea7bfa91ed9be8c5cde",
+    "file": "Lower-Third_V10.mogrt"
+  },
+  "object-stats-podcast-opener-v4": {
+    "version": "4",
+    "sha256": "b39c101d01bd5972749dcea73d6c7a56dc4a3db06a9dd9b7eee02be90204c33f",
+    "file": "Object-Stats-Podcast-Opener_V4.mogrt"
+  },
+  "samsara-partnership-v5": {
     "version": "5",
     "sha256": "37aa9b5910e5d3c1a0f5173fef21696220f49eead3b4d86e705be8c6796e979f",
-    "file": "Samsara x [Logo] V5.mogrt"
+    "file": "Samsara-Partnership_V5.mogrt"
   },
-  "samsara-presents-v6": {
+  "samsara-presents-opener-v6": {
     "version": "6",
     "sha256": "9541994e2ef61680683186f40f1d3a939055bb7bec7ce36f1eb6d1fb9d05338b",
-    "file": "Samsara_Presents_V6.mogrt"
+    "file": "Samsara-Presents-Opener_V6.mogrt"
   }
 }

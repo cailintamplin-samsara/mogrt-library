@@ -34,6 +34,30 @@ jobs:
           GITHUB_REF_NAME: ${{ github.ref_name }}
         run: node scripts/build-manifest.js
 
+      - name: Verify scrub frames
+        run: |
+          node -e '
+            const fs = require("fs");
+            const path = require("path");
+            const m = JSON.parse(fs.readFileSync("manifest.json", "utf8"));
+            const need = 16;
+            let failed = false;
+            for (const t of m.templates || []) {
+              const framesDir = path.join("previews", t.id, "frames");
+              const n = fs.existsSync(framesDir)
+                ? fs.readdirSync(framesDir).filter((f) => f.endsWith(".png")).length
+                : 0;
+              const urls = Array.isArray(t.frames) ? t.frames.length : 0;
+              if (n < need || urls < need) {
+                console.error(t.id + ": frames on disk=" + n + " manifest urls=" + urls);
+                failed = true;
+              } else {
+                console.log(t.id + ": ok (" + n + " frames)");
+              }
+            }
+            if (failed) process.exit(1);
+          '
+
       - name: Commit manifest if changed
         run: |
           git config user.name "github-actions[bot]"

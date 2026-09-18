@@ -13,6 +13,11 @@ const fs = require("fs");
 const path = require("path");
 const crypto = require("crypto");
 const { execFileSync } = require("child_process");
+const {
+  slugify,
+  displayName,
+  extractVersionHint,
+} = require("./mogrt-naming");
 
 const ROOT = path.resolve(__dirname, "..");
 const TEMPLATES_DIR = path.join(ROOT, "templates");
@@ -36,26 +41,6 @@ function parseArgs(argv) {
     out.branch = process.env.GITHUB_REF_NAME;
   }
   return out;
-}
-
-function slugify(name) {
-  return name
-    .replace(/\.mogrt$/i, "")
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, "-")
-    .replace(/^-+|-+$/g, "");
-}
-
-function displayName(fileName) {
-  return fileName.replace(/\.mogrt$/i, "").replace(/\s+/g, " ").trim();
-}
-
-function extractVersionHint(fileName) {
-  const vMatch = fileName.match(/v(\d+(?:\.\d+)*)/i);
-  if (vMatch) return vMatch[1];
-  const versionWord = fileName.match(/version\s*(\d+(?:\.\d+)*)/i);
-  if (versionWord) return versionWord[1];
-  return "1.0";
 }
 
 function sha256File(filePath) {
